@@ -1,5 +1,4 @@
 function fibSequence(n) {
-  n = prompt("Enter squence limit");
   let a = 0;
   let b = 1;
   let c;
@@ -13,3 +12,5 @@ function fibSequence(n) {
   }
   return sequence;
 }
+
+console.log(fibSequence(8));
